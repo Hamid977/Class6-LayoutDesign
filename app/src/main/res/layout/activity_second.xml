@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".SecondActivity">
+
+   <TextView
+       android:id="@+id/textview_hamid"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentTop="true"
+       android:background="@android:color/holo_orange_dark"
+       android:padding="10dp"
+
+       android:text="Hamid"
+       android:textSize="20sp"
+       />
+
+    <TextView
+        android:id="@+id/textview_afiya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Afiya"
+        android:padding="10dp"
+        android:layout_toRightOf="@id/textview_hamid"
+        android:textSize="20sp"
+        android:background="@android:color/holo_orange_dark"
+        />
+
+    <TextView
+        android:id="@+id/textview_ayat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayat"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="20sp"
+        android:background="@android:color/holo_orange_dark"
+        />
+
+    <TextView
+        android:id="@+id/textview_ayra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayra"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/textview_ayat"
+        android:textSize="20sp"
+        android:background="@android:color/holo_orange_dark"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amisha"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/textview_daizy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daizy"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/textview_amin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amin"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_above="@id/textview_daizy"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/textview_ha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hamid"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_below="@id/textview_daizy"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/textview_arif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arif"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_dark"
+
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/textview_fahim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fahim"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/textview_Lipi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lipi"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>
